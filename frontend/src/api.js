@@ -1,4 +1,4 @@
-const API = "http://localhost:3000/api";
+const API = "https://job-scheduler-backend-0o2d.onrender.com";
 
 /* Jobs */
 export const createJob = (data) =>
