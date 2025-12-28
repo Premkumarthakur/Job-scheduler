@@ -1,6 +1,6 @@
 # High Throughput Job Scheduler
 
-A production-ready job scheduler built with Node.js, Express, and MongoDB. Designed for high concurrency with at-least-once execution guarantees.
+A job scheduler built with Node.js, Express, and MongoDB. Designed for high concurrency with at-least-once execution guarantees.
 
 ## Architecture Overview
 
