@@ -393,19 +393,5 @@ curl http://localhost:3000/api/jobs/{jobId}/executions
 - Can handle 100 jobs/second if each job takes 100ms
 - Schedule drift minimal for jobs under 1 second duration
 
-## Production Checklist
 
-- [ ] Set up MongoDB replica set for high availability
-- [ ] Configure appropriate MAX_CONCURRENT_JOBS for your workload
-- [ ] Set up monitoring on `/api/observability/health`
-- [ ] Alert on high failure rates from `/api/observability/failures`
-- [ ] Enable MongoDB authentication
-- [ ] Use environment variables for sensitive data
-- [ ] Set up log aggregation for execution history
-- [ ] Consider TTL index on job_executions for old data cleanup
-- [ ] Implement rate limiting on API endpoints
-- [ ] Add authentication/authorization for API access
 
-## License
-
-MIT
